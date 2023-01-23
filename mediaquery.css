@@ -1,0 +1,178 @@
+@media screen and (max-width: 950px) {
+  header {
+    padding: 1em;
+  }
+  .logo {
+    width: 40px;
+  }
+  .ShowHideNav {
+    display: flex;
+  }
+  nav {
+    position: absolute;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+      rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    width: 100%;
+    height: 85%;
+    top: 5.5em;
+    left: 0;
+    background-color: #234e70;
+    display: none;
+  }
+  nav ul {
+    flex-direction: column;
+    height: 100%;
+  }
+  nav ul li {
+    width: 200px;
+  }
+
+  nav ul li a {
+    width: 100%;
+    padding: 1em 2em;
+  }
+  #hamMenu {
+    display: flex;
+  }
+  #home {
+    padding: 0.2em;
+  }
+  #profile {
+    display: none;
+  }
+  #home .description h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  #home .description {
+    width: 100%;
+    height: 100%;
+  }
+  #home .description p {
+    width: 90%;
+  }
+  .buttonbox {
+    flex-direction: column;
+    width: 90%;
+  }
+  .title h2 {
+    font-size: 25px;
+  }
+  #about {
+    height: 150vh;
+  }
+  #about .aboutcontent {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  #about .aboutcontent .intro {
+    width: 100%;
+    height: 50%;
+  }
+  #about .skilsContainer {
+    width: 100%;
+    height: 50%;
+  }
+
+  #about .aboutcontent .intro p {
+    font-size: 20px;
+  }
+  .skils p{
+   font-size: 15px;
+  }
+
+  #education .title {
+    height: 5%;
+  }
+  #education {
+    height: 250vh;
+  }
+  .box .name {
+    font-size: 18px;
+  }
+  .educationContainer {
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
+    height: 25%;
+  }
+  .box:hover {
+    transform: scale(0.95);
+  }
+  #work {
+    height: 180vh;
+    gap: 1em;
+  }
+  #work .title {
+    height: 5%;
+  }
+  .workcontainer {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    place-items: center;
+  }
+  .templates {
+    height: 250px;
+    width: 250px;
+    justify-content: space-around;
+    padding-bottom: 1em;
+  }
+
+  /* *Contact */
+  #contact{
+    flex-direction: column;
+    height: 150vh;
+  }
+   .contactContainer{
+    flex-direction: column;
+    gap: 1em;
+    padding: 0em;
+  }
+  .left-Side{
+    width: 100%;
+    height: 40%;
+  }
+  .left-Side h3{
+    font-size: 15px;
+  }
+  .left-Side h3 i{
+    font-size: 20px;
+  }
+  
+  .socialIcon{
+  padding: 0.8em;
+  }
+  .socialIcon i{
+    font-size: 15px;
+  }
+  .FormContainer{
+    width: 100%;
+    height: 60%;
+  }
+  .FormContainer form{
+   width: 100%;
+   height: 100%;
+  }
+  .FormContainer .Msg{
+    width: 100%;
+    border-top: 2px solid white;
+  }
+  .FormContainer .Msg #ErrorMsg{
+    font-size: 10px;
+  }
+  footer{
+    gap: 0.5em;
+  }
+  footer p{
+    font-size: 12px;
+  }
+  footer img{
+    width: 28px;
+  }
+  footer p span{
+    font-size: 12px;
+  
+  }
+}
